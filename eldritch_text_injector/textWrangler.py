@@ -98,7 +98,7 @@ class textWrangler:
                 string_list.append(c)
 
             out_str = ''.join(string_list).rstrip()
-            out_list.append('**' + out_str + '**')
+            out_list.append('**' + out_str + '** ')
 
         return out_list
 

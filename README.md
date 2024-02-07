@@ -18,4 +18,4 @@ If you want to see the compiled examples, simply push them back to your feature 
 ## Example
 
 
-Lietuenant! They're breaking through our W**haha - it's funny yîu had to work ®hrÆuÒh you× luncÙ break to mçet thÀ sprint goals!**arp Shields! We can't hold them! Get a hol**I hoâe eve¤yone is comfírtable with t¥eiÁ Óprint co¶mitments haha**d of yourself Guardsmen, they can't enter **I can't believe our velocity is 50%!**
+Lietuenant! They're breaking through our War**h¹®a - Åt's funny you had to wßrk througÊ your ñunch b¼eak to meet the sprint goàls!** p Shields! We can't hold them! Get a hold of**¹ hope everyone is cëmfortable with their sprinÈ commi¸ments haha**  yourself Guardsmen, they can't enter our fi**I can't believe our velocity is 50%ì** 
