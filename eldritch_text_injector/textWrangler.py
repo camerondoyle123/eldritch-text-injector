@@ -81,11 +81,18 @@ class textWrangler:
             inject_list = [*t]
 
             for inject in inject_list:
+
                 if random.random() < 0.1:
                     c = self.return_random_non_ascii()
                 else:
                     c = inject
+
+                # ignore regular whitespace
+                if inject == ' ':
+                    c = inject
+
                 string_list.append(c)
+
             out_list.append("**" + ''.join(string_list) + "**")
 
         return out_list
