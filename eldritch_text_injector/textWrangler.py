@@ -34,6 +34,10 @@ class textWrangler:
         split an input string (originally, from inside a list)
         into a random number of parts ranging from 2 -> char_len.
         """
+
+        if low_n < 1:
+            low_n += 1
+
         parts = list()
         for t in txt:
             split_n = random.randint(low_n, low_n+5)
@@ -93,7 +97,8 @@ class textWrangler:
 
                 string_list.append(c)
 
-            out_list.append("**" + ''.join(string_list) + "**")
+            out_str = ''.join(string_list).rstrip()
+            out_list.append('**' + out_str + '**')
 
         return out_list
 

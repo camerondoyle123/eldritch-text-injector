@@ -1,4 +1,1 @@
-Lietuenant! They're breaking through our Warp**haha - it'sñfuíny you had to work through your åónchÁáreÏk to meet éhe sprintÊgÈalsù
-** Shields! We can't hold them! Get a hold of y**I hope everyone is comfoÍtable with their sprint commitments haha
-**ourself Guardsmen, they can't enter our field**I can'µ believe our velocity is 50¶!
-**
+Lietuenant! They're breaking through our W**haha - it's funny yîu had to work ®hrÆuÒh you× luncÙ break to mçet thÀ sprint goals!**arp Shields! We can't hold them! Get a hol**I hoâe eve¤yone is comfírtable with t¥eiÁ Óprint co¶mitments haha**d of yourself Guardsmen, they can't enter **I can't believe our velocity is 50%!**
