@@ -86,7 +86,7 @@ class textWrangler:
 
             for inject in inject_list:
 
-                if random.random() < 0.1:
+                if random.random() < 0.075:
                     c = self.return_random_non_ascii()
                 else:
                     c = inject
