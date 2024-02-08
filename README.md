@@ -32,5 +32,4 @@ If you want to see the compiled examples, simply push them back to your feature 
 ## Example
 
 
-SCP-UNCLASSIFIED \ \ Item#: SCP-UNCLASSIFIED \ \ Object Class: Keter \ \ Special Containment Procedures: This SCP is currently unc**haha - itÝs funny yÒu ha§ to work thro½gh your lunch breñk to meeö the spri¨t goals!** ontained and has ethereal properties, making it difficult to track. It primarily manifests in office environments that contain ref**I hope eve³yoÒe is comfortable wi»h theiÄ spriÓt comm¦tments hahù** erences to the Agile Manifesto. Side-effects of the SCP often result in textual artefacting within documentation referring to it.
-**I caæ't believe our vÙlocity is 50%!** 
+SCP-UNCLASSIFIED <br> Item#: SCP-UNCLASSIFIED <br> Object Class: Keter <br> Special Containment Procedures: This SCP is currently**haïa - it's fun¤ò you had to work thro»gh ±o¸r lunch breªk to meet túe sprint goals!**  uncontained and has ethereal properties, making it difficult to track. It primarily manifests in office environments that contai**I hope everyonö is comfortabÑe witÂ their spri­t co¸måt»¯ntµ haha** n references to the Agile Manifesto. Side-effects of the SCP often result in textual artefacting within documentation referring t**I can't believe our velµcity is 50%!** 
