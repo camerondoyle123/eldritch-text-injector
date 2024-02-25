@@ -2,12 +2,7 @@ from eldritch_text_injector.textWrangler import textWrangler
 
 text = textWrangler("./files/input.txt", "./files/eldritch.txt")
 
-text.concat_txt_file()
 
-
-
-
-
-
-
+if __name__ == "__main__":
+    text.concat_txt_file()
 
