@@ -107,7 +107,7 @@ class textWrangler:
 
     def write_markdown(self):
         str_to_write = self.intersperse_lists()
-        with open("eldritch.md", "w") as f:
+        with open("./md/eldritch.md", "w") as f:
             f.write("".join(str_to_write))
             f.close()
 
@@ -118,8 +118,8 @@ class textWrangler:
         self.write_markdown()
 
         # Open the source text files
-        file1 = open("base-readme.md", "r")
-        file2 = open("eldritch.md", "r")
+        file1 = open("./md/base-readme.md", "r")
+        file2 = open("./md/eldritch.md", "r")
         
         # Read the contents of the text files
         content1 = file1.read()
