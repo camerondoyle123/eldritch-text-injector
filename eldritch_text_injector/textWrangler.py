@@ -10,20 +10,31 @@ class textWrangler:
         """
         input_txt: str, path to the file that contains your 'normal' narrative.
         eldritch_txt: str, path to file that contains your voices of madness.
+        low_n: int, class variable for later on!
         """
         self.input_txt = input_txt
         self.eldritch_txt = eldritch_txt
-        self.input_list = list()
-        self.eldritch_list = list()
         self.low_n = int()
 
     def return_input_str(self):
+        """
+        retrieve the input 'normal' text from an input file as defined in the
+        Class.
+        
+        return: string from file
+        """
         with open(self.input_txt, "r") as f:
             input_str = f.readlines()
 
         return input_str
 
     def return_eldritch_str(self):
+        """
+        retrieve the input 'Eldritch' text from an input file as defined in the
+        Class.
+        
+        return: list of strings (elements defined by line breaks) from file.
+        """
         with open(self.eldritch_txt, "r") as f:
             eldritch_str = f.readlines()
 
@@ -32,8 +43,14 @@ class textWrangler:
     @staticmethod
     def break_txt(txt, low_n):
         """
-        split an input string (originally, from inside a list)
-        into a random number of parts ranging from 2 -> char_len.
+        txt: str, input string of characters of some kind
+        low_n: int, the minimum number of parts to split the string into.
+                    always do plus 5 more parts than whatever the length is(?)
+
+        desc: split an input string (originally, from inside a list)
+              into a random number of parts ranging from 2 -> char_len.
+
+        return: a list of strings
         """
 
         if low_n < 1:
@@ -48,6 +65,15 @@ class textWrangler:
 
     @staticmethod
     def return_random_non_ascii():
+        """
+        Static method with no arguments. Can be called independently of 
+        other methods.
+
+        Will cycle through characters (at random, repeating allowed) 163 -> 255 
+        in the non-standard ASCII set (i.e. those that are greater than 125, 
+        although for my purposes, I've set it to 163 for extra Eldritch-ness).
+
+        """
 
         non_standard_ascii = " ".join(chr(i) for i in range(162, 254)).split()
         upper = len(non_standard_ascii) - 1
@@ -59,7 +85,16 @@ class textWrangler:
 
     def intersperse_lists(self):
         """
-        intersperse arbitrary, differing length lists together
+        Intersperse arbitrary, differing length lists together.
+
+        In this case, input_list is the original 'normal' text
+        that is split into 5 parts.
+
+        eldritch_list however, will cycle through the lines provided
+        from the eldritch_input file (i.e. line breaks as string in a list).
+
+        This then returns a list that intersperses the eldritch elements
+        between the existing 'normal' list of strings.
         """
         input_list = self.break_txt(self.return_input_str(), self.low_n)
         eldritch_list = self.inject_non_ascii()
@@ -79,6 +114,16 @@ class textWrangler:
         return z
 
     def inject_non_ascii(self):
+        """
+        Firstly, grab the input_eldritch file as a list of strings 
+        (based on line breaks in the input file).
+
+        Then, cycle through and give each character in the list a 
+        5% change of having it replaced with a non-standard ASCII character.
+
+        This ignores white space for ease-of-reading later on.
+
+        """
         text = self.return_eldritch_str()
         out_list = list()
         self.low_n = len(text)
@@ -106,6 +151,9 @@ class textWrangler:
         return out_list
 
     def write_markdown(self):
+        """
+        write 'em, Bill!
+        """
         str_to_write = self.intersperse_lists()
         with open("./md/eldritch.md", "w") as f:
             f.write("".join(str_to_write))
@@ -113,6 +161,9 @@ class textWrangler:
 
 
     def concat_txt_file(self):
+        """
+        eeewww, I really should fix this...
+        """
 
         # gross, but works
         self.write_markdown()
