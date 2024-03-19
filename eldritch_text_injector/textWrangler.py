@@ -131,7 +131,6 @@ class textWrangler:
         for t in text:
             string_list = list()
             inject_list = [*t]
-            print(inject_list)
 
             for inject in inject_list:
 
