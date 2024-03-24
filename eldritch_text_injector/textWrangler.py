@@ -1,5 +1,5 @@
 import random
-
+from .mapping import mapping
 
 class textWrangler:
     """
@@ -45,7 +45,7 @@ class textWrangler:
         """
         txt: str, input string of characters of some kind
         low_n: int, the minimum number of parts to split the string into.
-                    always do plus 5 more parts than whatever the length is(?)
+                    always do 5 more parts than whatever the length is(?)
 
         desc: split an input string (originally, from inside a list)
               into a random number of parts ranging from 2 -> char_len.
@@ -119,7 +119,7 @@ class textWrangler:
         (based on line breaks in the input file).
 
         Then, cycle through and give each character in the list a 
-        5% change of having it replaced with a non-standard ASCII character.
+        5% chance of having it replaced with a non-standard ASCII character.
 
         This ignores white space for ease-of-reading later on.
 
@@ -127,6 +127,7 @@ class textWrangler:
         text = self.return_eldritch_str()
         out_list = list()
         self.low_n = len(text)
+        eldritch_map = { key:val for key, val in mapping.items() if val }
 
         for t in text:
             string_list = list()
@@ -134,7 +135,12 @@ class textWrangler:
 
             for inject in inject_list:
 
-                if random.random() < 0.05:
+                if inject in eldritch_map.keys():
+                    
+                    random_mapped_index = random.randint(0, len(eldritch_map[inject])-1)
+                    c = chr(eldritch_map[inject][random_mapped_index])
+
+                elif random.random() < 0.05:
                     c = self.return_random_non_ascii()
                 else:
                     c = inject
