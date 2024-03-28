@@ -30,5 +30,4 @@ If you want to see the compiled output, simply push them back to your feature br
 ## Example
 
 
-SCP-UNCLASSIFIED <br> Item#: SCP-UNCLASSIFIED <br> Object Class: Keter <br> Special Containment Procedures: This SCP is currently un**hÅhä - ¡t'§ ûññ¥ ¥ðü hÂÐ tô wð®k th®õûgh ýÒù® £µÑ¢h ß®êãk tõ mèÉt thé §Þ®îñt gòá£!** contained and has ethereal properties, making it difficult to track. It primarily manifests in office environments that contain refe**I hõÞè évÊ®¥øñÉ ¦ ¢ºmö®tÀß£ê wîth thÈÌ® Þ®¦ñt çÔmmÍtméñt hÂhá** rences to the Agile Manifesto. Side-effects of the SCP often result in textual artefacting within documentation referring to it.
-**I ©äñ't þÊ£îévÉ òù® vé£Ó©Ìtÿ Ì§ 50%!** 
+SCP-UNCLASSIFIED <br> Item#: SCP-UNCLASSIFIED <br> Object Class: Keter <br> Special Containment Procedures: This SCP is currently **hªhª - Ït'§ ƒúÑÑÝ Ýðµ hãÐ tó wÒ®k th®Òúg½ ÝÖû® £ùÑ¢h ß®ÉÄk áº mÈÉt thÈ šÞ®Íñt gÓä£§!** uncontained and has ethereal properties, making it difficult to track. It primarily manifests in office environments that contain **I hÔÞÊ ëvÉ®ðÑé îš çòmƒð®tªþ£é wïth tõÈÎ® šÞ®ïñt ©ðmm¡tmËÑt§ hãhÀ¸** references to the Agile Manifesto. Side-effects of the SCP often result in textual artefacting within documentation referring to i**I çÅñ't þË£îëvè óú® vË£Öçït¥ ¦š 50%!** 
