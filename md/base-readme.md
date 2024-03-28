@@ -7,7 +7,9 @@ with non-standard ASCII characters injected into an otherwise unhinged list of s
 
 The list of Agile commentary can be found in the `files/eldritch.txt` which are ingested via line breaks; that is, if you wish to add to the file just add a line break with the text you want.
 
-Generally, the files are split into randomly generated chunks which allows the eldritch text to first be injected and then interspered to the original `files/input.txt`.
+Generally, the files are split into randomly generated chunks which allows the eldritch text to first be injected and then interspered to the original `files/input.txt`. Additionally,
+there is a `mapping.py` file contained within which has a mapping of diacritic characters with their respective Unicode index representation which take precedence over randomly generated
+'eldritch-like' characters.
 
 Finally, the `base-readme.md` file will be concatenated with the generated `eldritch.md` file to generate the page your reading now.
 
